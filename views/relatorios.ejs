@@ -379,8 +379,8 @@
 
     <script>
         // Dados Injetados pelo Servidor para o Chart.js
-        const chartLabels = <% - JSON.stringify(chartFaturamento.labels) %>;
-        const chartData = <% - JSON.stringify(chartFaturamento.data) %>;
+        const chartLabels = <%- JSON.stringify(chartFaturamento.labels) %>;
+        const chartData = <%- JSON.stringify(chartFaturamento.data) %>;
 
         const totalCarros = <%= totalCarrosCount %>;
         const totalMotos = <%= totalMotosCount %>;
